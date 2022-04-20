@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="projet tr2" version="4">
+  <OBJECT>
+    <ID name="projet tr2" mc="Standard.Package" uid="0b193b0a-8943-425e-8eec-35f3af344001"/>
+    <PID name="Projet TR2" mc="Standard.Project" uid="1274d0cb-b87f-4351-9eb2-cd094177d4f6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[projet tr2]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="admin" mc="Standard.Actor" uid="a6ca4748-a5ed-428e-8825-713bd3759768"/>
+        <COMPID name="Ajouter les données" mc="Standard.UseCase" uid="4aa463c3-514c-45b1-9652-d518662b92f0"/>
+        <COMPID name="Filtrer les données" mc="Standard.UseCase" uid="7bf71b6b-8def-4cb6-8575-5e55341d9b85"/>
+        <COMPID name="Supprimer les données" mc="Standard.UseCase" uid="bf808be5-254e-424f-91c9-aab72f5afccf"/>
+        <COMPID name="Analyser les données" mc="Standard.UseCase" uid="33669468-9d06-4185-8e4e-8b11c16b5149"/>
+        <COMPID name="Classifier les données " mc="Standard.UseCase" uid="aac0b427-a184-411f-967a-8102f49b4216"/>
+        <COMPID name="Prédictions des données" mc="Standard.UseCase" uid="2ace4aa1-2ce6-4240-b2fc-ce954a5e3105"/>
+        <COMPID name="ELT" mc="Standard.UseCase" uid="e2a4cf57-46e6-47c0-86c8-07e3645dc64d"/>
+        <COMPID name="Serveur" mc="Standard.Actor" uid="2624ac33-12bc-4c7c-a3ba-8b09bea59d7c"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation projet tr2" mc="Standard.UseCaseDiagram" uid="a3c4487b-47e8-4b25-b0e7-d532bff0edb6"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
